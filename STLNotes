@@ -1,0 +1,33 @@
+1. Containers
+STL containers implement many or the standard ways to storing data to achieve performance goals.
+These are all template types. They store values, and may copy them.
+If you don't want values copied, use addresses of the values.
+
+vector	        Like an expandable array.	
+deque	        Double-Ended Queue. Like an array expandable at both front and back.	
+list	        Doubly linked-list.	
+map	        Associates key with single value. Balanced tree.	
+multimap        Associates key with multiple values. Balanced tree.	
+set	        Records whether value belongs to it. Balanced tree.	
+multiset        Like set but allows more than one entry with the same value.	
+stack	        Adapter to permit only LIFO (Last In, First Out) access.	
+queue	        Adapter to permit only FIFO (First In, First Out) access.	
+priority_queue	Adapter to return element with the highest priority.	
+string	        Character strings.	
+bitset	        Bit strings, including set operations.
+
+
+
+2. Iterators
+Iterators provide uniform ways to go over the elements of the STL containers, as well as arrays.
+ There are iterators for going sequentially forward and/or backward as well as random access iterators.
+ Iterators are used by the STL algorithms. Iterator syntax uses the ++, --, and * operators which are familiar to users of pointers.
+
+3. Algorithms
+Many common algorithms are implemented for containers and arrays.
+ Sorting, searching, inserting, deleting, shuffling, permuting, rotating, 
+reversing, moving, copying, counting, minimum and maximum, for each, ...
+
+Other
+The STL contains other classes useful for numerics (eg, complex and valarray), 
+I/O (eg, stream I/O classes), internationalization (eg, wide characters and locales), etc.
